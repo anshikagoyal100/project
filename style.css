@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #8d8d8d;
+    padding: 0;
+    margin: 0;
+
+}
+.main{
+    height: 450px;
+    width: 800px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 161px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.first{
+    flex-basis: 50%;
+}
+.first img{
+    width: 99%;
+    height: auto;
+}
+
+
+.second{
+
+    flex-basis: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+.email .em {
+    border: none;
+    border-width: 1px;
+    background-color: none;
+    border-bottom: 1px solid black;
+}
+.pass .passw {
+    border: none;
+    border-width: 1px;
+    background-color: none;
+    border-bottom: 1px solid black ;
+}
+span{
+    color: blue;
+    cursor: pointer;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+}
+
